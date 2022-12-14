@@ -22,25 +22,25 @@
       "last_name": "Kulyakin"
     },
     {
+      "id": 111,
+      "email": "george.edwards@reqres.in",
+      "first_name": "George",
+      "last_name": "Edwards",
+      "avatar": "https://reqres.in/img/faces/11-image.jpg"
+    },
+    {
       "avatar": "https://avatars.githubusercontent.com/u/91483203?v=4",
+      "email": "fuckmaster@gmail.com",
+      "first_name": "Влад",
+      "id": 0.66041723138321,
+      "last_name": "Кулякин"
+    },
+    {
+      "avatar": "https://reqres.in/img/faces/1-image.jpg",
       "email": "kulyakinv@gmail.com",
-      "first_name": "Vla",
-      "id": 0.02101307766607352,
-      "last_name": "Dya"
-    },
-    {
-      "avatar": "https://cdn.vkuso.ru/uploads/francuzskie-kruassany-po-domashnemu.jpg",
-      "email": "маипки",
-      "first_name": "пик",
-      "id": 0.7989972872488071,
-      "last_name": "ик"
-    },
-    {
-      "avatar": "12",
-      "email": "21",
-      "first_name": "21",
-      "id": 0.19696132667290112,
-      "last_name": "21"
+      "first_name": "Vlad",
+      "id": 19953,
+      "last_name": "Kulyakin"
     }
   ],
   "authorization": [

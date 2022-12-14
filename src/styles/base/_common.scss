@@ -1,0 +1,41 @@
+:root {
+    --scrollbar-track-color: transparent;
+    --scrollbar-color: rgba(0,0,0,.2);
+  
+    --scrollbar-size: .375rem;
+    --scrollbar-minlength: 1.5rem;
+  }
+  
+  
+  body {
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8C7F68;
+    border-radius: 10px;
+    min-height: var(100px);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
