@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
 export const NotFound = () => {
-  return (
-    <div className='notfound'>Пользователя с таким именем не существует</div>
-  )
-}
+  return <div className="notfound">Пользователя с таким именем не существует</div>;
+};

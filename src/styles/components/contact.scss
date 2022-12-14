@@ -1,0 +1,71 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+    &-left {
+        display: flex;
+        align-items: center;
+
+        &__img {
+            width: 50px;
+            height: 50px;
+            margin-left: 14px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+    &-right {
+        padding-right: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+  
+  }
+  .info-block {
+    padding-left: 14px;
+    &__fullname {
+        &-span {
+            font-size: 15px;
+            font-weight: 600;
+            margin-right: 0.3rem;
+        }
+    }
+    &__nick {
+        font-size: 12px;
+    }
+  }
+
+  .btn-edit {
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+    &__icon {
+        opacity: 0;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &:hover .btn-edit__icon {
+        opacity: 1;
+        transition: ease-in-out 0.5s;
+    }
+  }
+  
+  .btn-delete {
+    width: 25px;
+    height: 4px;
+    border: none;
+    background: #8C7F68;
+    border-radius: 7px;
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    &:active {
+    transition: 0.2s all;
+    transform: translateY(1px);
+    }
+  }
